@@ -93,6 +93,11 @@ folder:
 ```
 export LD_LIBRARY_PATH=.
 ./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so"
+
+On Ubuntu 22.04 Desktop OS
+==========================
+export LD_LIBRARY_PATH=.
+./mjpg_streamer -o "output_http.so -w ./www" -i input_uvc.so
 ```
 
 See [README.md](mjpg-streamer-experimental/README.md) or the individual plugin's documentation for more details.
